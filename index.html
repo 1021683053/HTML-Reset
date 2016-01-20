@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="cn"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<title>index</title>
+
+<!--[if (gt IE 8) | (IEMobile)]><!-->
+    <link rel="stylesheet" href="./src/css/unsemantic/unsemantic-grid-responsive.css" />
+<!--<![endif]-->
+<!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="./src/css/unsemantic/ie.css" />
+<![endif]-->
+    <link rel="stylesheet" href="./src/css/base.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+
+<body id="index">
+    
+    <div class="w">
+        
+        <!-- 头部 -->
+        <div class="header">
+            <div class="grid-container">
+                <div class="grid-100">
+                    <h2>Header</h2>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 内容 -->
+        <div class="grid-container c">
+            <div class="grid-100">
+                <div class="item-1">
+                    广告
+                </div>
+            </div>
+            <div class="grid-30">
+                <div class="item-2">
+                    侧边栏
+                </div>
+            </div>
+            <div class="grid-70">
+                <div class="item-3">
+                    正文
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="grid-container">
+            <div class="grid-100">
+                <h3>Footer</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- 加载jQuery -->
+    <script>window.jQuery || document.write("<script src='./src/libs/jquery-1.11.3.min.js'>\x3C/script>")</script>
+
+    <!-- 加载页面初始化JS -->
+    <script src="./src/js/functions.js"></script>
+    <script>$(document).ready(initPage);</script>
+</body>
+</html>

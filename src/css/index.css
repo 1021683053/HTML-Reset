@@ -1,0 +1,21 @@
+#index .item-1 {
+  height: 50px;
+  background: #eee;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+#index .item-2 {
+  height: 500px;
+  text-align: center;
+  line-height: 50px;
+  background: #006666;
+  margin-bottom: 20px;
+}
+#index .item-3 {
+  height: 500px;
+  text-align: center;
+  line-height: 50px;
+  background: #003366;
+  margin-bottom: 20px;
+}
